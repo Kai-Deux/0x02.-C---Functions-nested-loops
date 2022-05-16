@@ -1,22 +1,22 @@
 #include <stdio.h>
 
-int main()
+ int main(void)
 {
-	int sum = 0;
+	int n = 0;
 	int i;
 
 
 	for (i=0; i < 1024; i++)
 	{
 		if (i % 3 == 0)
-		sum += i;
+		n += i;
 		
 
 		if (i % 5 == 0)
-		sum += i;
+		n += i;
 	}
 
-	printf("%i\n", sum);
+	printf("%i\n", n);
 
 	return 0;
 }
